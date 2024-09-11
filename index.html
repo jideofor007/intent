@@ -1,1 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intent Investment</title>
+    <link rel="stylesheet" href="style.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="contact">
+            <ul>
+                <li><a href="tel:415.717.2661" class="tel"><i class="fa-solid fa-phone"></i>Call: 415.717.2661</a></li>
+                <li><a href="mailto:justin@intent.finance" class="mail"><i class="fa-solid fa-envelope"></i>Email: justin@intent.finance</a></li>
+            </ul>
+
+            <div class="icon">
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+
+        </div>
+        
+        <nav>
+            <a href="" class="logo">INTENT</a>
+          
+            <ul class="navlinks">
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">INSIGHT</a></li>
+                <li><a href="">INTRO</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+
+            <div class="right">
+                <button class="call">Book Call</button>
+                <div class="bx bx-menu" id="menu-icon"></div>
+            </div>
+
+        </nav>
+        
+        <div class="content anim">
+            <h1 class="anim">
+                IIM: Expert Investment Advisors Guiding You Through Complex Financial Landscapes To Achieve Your Goals
+            </h1>
+            <p class="anim">
+                Comprehensive Wealth Management Solutions for Businesses, Families, and Individuals 
+            </p>
+
+            <div class="content-btn anim">
+                <button class="btn1 anim">READ MORE</button>
+                <button class="btn2 anim">GET INTOUCH</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        let menu = document.querySelector('#menu-icon');
+        let navlinks = document.querySelector('.navlinks');
+
+        menu.onclick = () => {
+            menu.classList.toggle('fa-solid');
+            navlinks.classList.toggle('open');
+        }
+    </script>
+
+</body>
+</html>
