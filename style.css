@@ -207,7 +207,7 @@
     align-items: center;
     backdrop-filter: blur(25px);
     transition: all .7s ease;
-    z-index: 900;
+    z-index: 1000;
    
   }
 
