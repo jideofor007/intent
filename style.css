@@ -206,6 +206,7 @@
     padding-top: 100px;
     align-items: center;
     backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
     transition: all .7s ease;
     z-index: 1000;
    
